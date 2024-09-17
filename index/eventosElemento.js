@@ -13,6 +13,6 @@ ul.addEventListener("scroll", (event) => {
 
 const buttom = document.querySelector("buttom");
 buttom.addEventListener("click", (event) => {
-    event.preventDefault();
+    event.preventDefault(); // previne o comportamento de recarregar a página
     console.log("Clicou");
 });
